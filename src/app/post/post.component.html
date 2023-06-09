@@ -1,0 +1,8 @@
+<div class="">
+	<a routerLink="/post/{{post.slug}}/{{post.id}}" class="group">
+	  <div class="poster w-full h-[150px] bg-[#eee] overflow-hidden rounded-md">
+		  <img [src]="post.poster" alt="" class="w-full h-full object-cover ">
+	  </div>
+	  <h3 class="text-md font-bold hover:text-[#387DFF] mt-2 group-hover:text-[#387DFF]">{{ post.title }}</h3>
+	</a>
+</div>

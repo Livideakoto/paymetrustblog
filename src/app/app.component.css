@@ -1,0 +1,10 @@
+.navbar ul li{
+	display: inline-block;
+}
+.navbar ul li a{
+    display: block;
+    padding: 7px 10px;
+}
+.navbar ul li:hover a{
+    color: #387DFF;
+}

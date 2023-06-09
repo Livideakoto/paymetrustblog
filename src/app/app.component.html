@@ -1,0 +1,12 @@
+<div class="border-b-[1px] border-[#ddd]">
+    <div class="container">
+        <div class="navbar flex py-2 items-center">
+            <a routerLink=""><img src="../assets/img/logo.png" alt="" class="w-[200px] h-auto ml-[-10px]"></a>
+
+            <ul class="w-[calc(100%-200px)] list-none text-right">
+                <li *ngFor="let category of categories"><a routerLink="category/{{category.id}}">{{ category.libelle }}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
